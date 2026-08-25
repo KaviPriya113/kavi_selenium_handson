@@ -13,18 +13,11 @@
     <classes>
       <class name="testCase.NinjaRegistration_TC001">
         <methods>
-          <include name="registration"/>
           <include name="tearDown"/>
+          <include name="registration"/>
           <include name="setup"/>
         </methods>
       </class> <!-- testCase.NinjaRegistration_TC001 -->
-      <class name="testCase.NinjaLogin_TC002">
-        <methods>
-          <include name="tearDown"/>
-          <include name="verify_login"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCase.NinjaLogin_TC002 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
