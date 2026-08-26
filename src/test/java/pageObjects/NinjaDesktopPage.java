@@ -21,6 +21,9 @@ public void clickMacCart()
 @FindBy(xpath="//*[@id=\"product-category\"]/div[1]")
 WebElement cartMessage;
 
+@FindBy(xpath="//*[@id=\"content\"]/div[4]/div[1]/div/div[2]/div[2]/button[2]")
+WebElement clickWishlist;
+
 public String getCartMessage()
 {
 	try {
@@ -30,6 +33,11 @@ public String getCartMessage()
 		return (e.getMessage());
 	}
 	
+}
+
+public void clickingWishList()
+{
+	clickWishlist.click();
 }
 
 }

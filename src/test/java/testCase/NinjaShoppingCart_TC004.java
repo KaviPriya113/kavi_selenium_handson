@@ -37,6 +37,8 @@ public class NinjaShoppingCart_TC004 extends BaseClass{
 	    Assert.assertEquals(cartemptymessage, "Your shopping cart is empty!");
 	    Thread.sleep(3000);
 	    
+	    nsp.clickcontinuebtn();
+	    
 		}
 	
 	

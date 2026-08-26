@@ -15,7 +15,6 @@ public class NinjaHomePage extends basePage{
 @FindBy(xpath="//*[@id=\"top-links\"]/ul/li[2]/a/span[1]")
 WebElement myaccount;
 
-
 @FindBy(linkText="Register")
 WebElement registerlink;
 
@@ -31,8 +30,15 @@ WebElement pc;
 @FindBy(linkText = "Mac (1)")
 WebElement mac;
 
+@FindBy(linkText ="Show AllDesktops")
+WebElement showDesktop;
+
 @FindBy(xpath="//*[@id=\"top-links\"]/ul/li[4]/a/span")
 WebElement shoppingcart;
+
+@FindBy(xpath="//*[@id=\"wishlist-total\"]")
+WebElement wishlistbtn;
+
 
 public void clickMyAcc()
 {
@@ -64,6 +70,18 @@ public void selectmac()
 public void selectShoppingCart()
 {
 	shoppingcart.click();
+}
+
+public void clickAllDesktop()
+{
+	Actions act = new Actions(driver);
+	 act.moveToElement(desktopdropdown).perform();
+	 showDesktop.click();
+}
+
+public void clickwishlist()
+{
+	wishlistbtn.click();
 }
 
 

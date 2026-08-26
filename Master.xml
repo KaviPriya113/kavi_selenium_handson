@@ -19,6 +19,7 @@
 			<class name="testCase.DataProvide_TC003" />
 			<class name="testCase.NinjaLogin_TC002" />
 			<class name="testCase.NinjaShoppingCart_TC004"></class>
+			<class name="testCase.NinjaWishlist_TC005"></class>
 		</classes>
 	</test> <!--
 	Test -->

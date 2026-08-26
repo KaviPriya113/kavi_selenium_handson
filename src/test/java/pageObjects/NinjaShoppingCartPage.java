@@ -45,6 +45,14 @@ public class NinjaShoppingCartPage extends basePage {
 				return (e.getMessage());
 			}
 		}
+		
+		@FindBy(xpath="//*[@id=\"content\"]/div/div/a")
+		WebElement continuebtn;
+		
+		public void clickcontinuebtn()
+		{
+			continuebtn.click();
+		}
 }
 
 

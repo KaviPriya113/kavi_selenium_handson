@@ -1,13 +1,17 @@
 C:\Workspace\Selenium Handson\kavi_selenium_handson\src\test\java\pageObjects\AccRegistrationPage.java
 C:\Workspace\Selenium Handson\kavi_selenium_handson\src\test\java\pageObjects\basePage.java
 C:\Workspace\Selenium Handson\kavi_selenium_handson\src\test\java\pageObjects\HomePage.java
+C:\Workspace\Selenium Handson\kavi_selenium_handson\src\test\java\pageObjects\Ninja_Search.java
+C:\Workspace\Selenium Handson\kavi_selenium_handson\src\test\java\pageObjects\NinjaDesktopPage.java
 C:\Workspace\Selenium Handson\kavi_selenium_handson\src\test\java\pageObjects\NinjaHomePage.java
 C:\Workspace\Selenium Handson\kavi_selenium_handson\src\test\java\pageObjects\NinjaLoginPage.java
 C:\Workspace\Selenium Handson\kavi_selenium_handson\src\test\java\pageObjects\NinjaMyAccountPage.java
+C:\Workspace\Selenium Handson\kavi_selenium_handson\src\test\java\pageObjects\NinjaShoppingCartPage.java
 C:\Workspace\Selenium Handson\kavi_selenium_handson\src\test\java\testBase\BaseClass.java
 C:\Workspace\Selenium Handson\kavi_selenium_handson\src\test\java\testCase\DataProvide_TC003.java
 C:\Workspace\Selenium Handson\kavi_selenium_handson\src\test\java\testCase\NinjaLogin_TC002.java
 C:\Workspace\Selenium Handson\kavi_selenium_handson\src\test\java\testCase\NinjaRegistration_TC001.java
+C:\Workspace\Selenium Handson\kavi_selenium_handson\src\test\java\testCase\NinjaShoppingCart_TC004.java
 C:\Workspace\Selenium Handson\kavi_selenium_handson\src\test\java\testCase\OrangeHRM_TC001.java
 C:\Workspace\Selenium Handson\kavi_selenium_handson\src\test\java\utilities\DataProviders.java
 C:\Workspace\Selenium Handson\kavi_selenium_handson\src\test\java\utilities\ExcelUtils.java
