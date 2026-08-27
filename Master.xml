@@ -20,6 +20,7 @@
 			<class name="testCase.NinjaLogin_TC002" />
 			<class name="testCase.NinjaShoppingCart_TC004"></class>
 			<class name="testCase.NinjaWishlist_TC005"></class>
+			<class name="testCase.NinjaReview_TC006"></class>
 		</classes>
 	</test> <!--
 	Test -->

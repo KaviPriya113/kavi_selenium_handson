@@ -39,6 +39,11 @@ WebElement shoppingcart;
 @FindBy(xpath="//*[@id=\"wishlist-total\"]")
 WebElement wishlistbtn;
 
+@FindBy(linkText="Components")
+WebElement componentbtn;
+
+@FindBy(linkText="Monitors (2)")
+WebElement monitorbtn;
 
 public void clickMyAcc()
 {
@@ -82,6 +87,13 @@ public void clickAllDesktop()
 public void clickwishlist()
 {
 	wishlistbtn.click();
+}
+
+public void selectmonitor()
+{
+	Actions act = new Actions(driver);
+	act.moveToElement(componentbtn).perform();
+	monitorbtn.click();
 }
 
 
