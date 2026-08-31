@@ -2,7 +2,7 @@
 <testng-results ignored="2" total="7" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-27T21:13:30 IST" name="Suite" finished-at="2026-08-27T21:14:38 IST" duration-ms="68892">
+  <suite started-at="2026-08-28T13:05:16 IST" name="Suite" finished-at="2026-08-28T13:06:21 IST" duration-ms="64756">
     <groups>
       <group name="regression">
         <method signature="NinjaLogin_TC002.verify_login()[pri:0, instance:testCase.NinjaLogin_TC002@1b1473ab]" name="verify_login" class="testCase.NinjaLogin_TC002"/>
@@ -12,73 +12,73 @@
         <method signature="NinjaWishlist_TC005.verify_Wishlist()[pri:0, instance:testCase.NinjaWishlist_TC005@6af93788]" name="verify_Wishlist" class="testCase.NinjaWishlist_TC005"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2026-08-27T21:13:30 IST" name="Test" finished-at="2026-08-27T21:14:38 IST" duration-ms="68892">
+    <test started-at="2026-08-28T13:05:16 IST" name="Test" finished-at="2026-08-28T13:06:21 IST" duration-ms="64756">
       <class name="testCase.NinjaReview_TC006">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.NinjaReview_TC006@ef9296d]" started-at="2026-08-27T21:14:28 IST" name="setup" finished-at="2026-08-27T21:14:30 IST" duration-ms="1970" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.NinjaReview_TC006@ef9296d]" started-at="2026-08-28T13:06:12 IST" name="setup" finished-at="2026-08-28T13:06:13 IST" duration-ms="1822" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_Review()[pri:0, instance:testCase.NinjaReview_TC006@ef9296d]" started-at="2026-08-27T21:14:30 IST" name="Verify_Review" finished-at="2026-08-27T21:14:38 IST" duration-ms="8254" status="PASS">
+        <test-method signature="Verify_Review()[pri:0, instance:testCase.NinjaReview_TC006@ef9296d]" started-at="2026-08-28T13:06:13 IST" name="Verify_Review" finished-at="2026-08-28T13:06:21 IST" duration-ms="7343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Review -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.NinjaReview_TC006@ef9296d]" started-at="2026-08-27T21:14:38 IST" name="tearDown" finished-at="2026-08-27T21:14:38 IST" duration-ms="348" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.NinjaReview_TC006@ef9296d]" started-at="2026-08-28T13:06:21 IST" name="tearDown" finished-at="2026-08-28T13:06:21 IST" duration-ms="258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCase.NinjaReview_TC006 -->
       <class name="testCase.NinjaRegistration_TC001">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.NinjaRegistration_TC001@3aefe5e5]" started-at="2026-08-27T21:13:30 IST" name="setup" finished-at="2026-08-27T21:13:40 IST" duration-ms="10395" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.NinjaRegistration_TC001@3aefe5e5]" started-at="2026-08-28T13:05:17 IST" name="setup" finished-at="2026-08-28T13:05:25 IST" duration-ms="8250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registration()[pri:0, instance:testCase.NinjaRegistration_TC001@3aefe5e5]" started-at="2026-08-27T21:13:40 IST" name="registration" finished-at="2026-08-27T21:13:48 IST" duration-ms="8190" status="PASS">
+        <test-method signature="registration()[pri:0, instance:testCase.NinjaRegistration_TC001@3aefe5e5]" started-at="2026-08-28T13:05:25 IST" name="registration" finished-at="2026-08-28T13:05:33 IST" duration-ms="8632" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.NinjaRegistration_TC001@3aefe5e5]" started-at="2026-08-27T21:13:48 IST" name="tearDown" finished-at="2026-08-27T21:13:49 IST" duration-ms="406" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.NinjaRegistration_TC001@3aefe5e5]" started-at="2026-08-28T13:05:34 IST" name="tearDown" finished-at="2026-08-28T13:05:34 IST" duration-ms="426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCase.NinjaRegistration_TC001 -->
       <class name="testCase.NinjaShoppingCart_TC004">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.NinjaShoppingCart_TC004@2f7c2f4f]" started-at="2026-08-27T21:13:55 IST" name="setup" finished-at="2026-08-27T21:13:57 IST" duration-ms="2201" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.NinjaShoppingCart_TC004@2f7c2f4f]" started-at="2026-08-28T13:05:39 IST" name="setup" finished-at="2026-08-28T13:05:41 IST" duration-ms="2065" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="shoppingcart()[pri:0, instance:testCase.NinjaShoppingCart_TC004@2f7c2f4f]" started-at="2026-08-27T21:13:57 IST" name="shoppingcart" finished-at="2026-08-27T21:14:11 IST" duration-ms="13984" status="PASS">
+        <test-method signature="shoppingcart()[pri:0, instance:testCase.NinjaShoppingCart_TC004@2f7c2f4f]" started-at="2026-08-28T13:05:41 IST" name="shoppingcart" finished-at="2026-08-28T13:05:55 IST" duration-ms="13930" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shoppingcart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.NinjaShoppingCart_TC004@2f7c2f4f]" started-at="2026-08-27T21:14:11 IST" name="tearDown" finished-at="2026-08-27T21:14:12 IST" duration-ms="583" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.NinjaShoppingCart_TC004@2f7c2f4f]" started-at="2026-08-28T13:05:55 IST" name="tearDown" finished-at="2026-08-28T13:05:55 IST" duration-ms="383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCase.NinjaShoppingCart_TC004 -->
       <class name="testCase.NinjaWishlist_TC005">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.NinjaWishlist_TC005@6af93788]" started-at="2026-08-27T21:14:12 IST" name="setup" finished-at="2026-08-27T21:14:17 IST" duration-ms="5164" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.NinjaWishlist_TC005@6af93788]" started-at="2026-08-28T13:05:55 IST" name="setup" finished-at="2026-08-28T13:05:57 IST" duration-ms="1916" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_Wishlist()[pri:0, instance:testCase.NinjaWishlist_TC005@6af93788]" started-at="2026-08-27T21:14:17 IST" name="verify_Wishlist" finished-at="2026-08-27T21:14:27 IST" duration-ms="10568" status="PASS">
+        <test-method signature="verify_Wishlist()[pri:0, instance:testCase.NinjaWishlist_TC005@6af93788]" started-at="2026-08-28T13:05:57 IST" name="verify_Wishlist" finished-at="2026-08-28T13:06:11 IST" duration-ms="13862" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Wishlist -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.NinjaWishlist_TC005@6af93788]" started-at="2026-08-27T21:14:27 IST" name="tearDown" finished-at="2026-08-27T21:14:28 IST" duration-ms="362" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.NinjaWishlist_TC005@6af93788]" started-at="2026-08-28T13:06:11 IST" name="tearDown" finished-at="2026-08-28T13:06:12 IST" duration-ms="387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCase.NinjaWishlist_TC005 -->
       <class name="testCase.NinjaLogin_TC002">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.NinjaLogin_TC002@1b1473ab]" started-at="2026-08-27T21:13:49 IST" name="setup" finished-at="2026-08-27T21:13:53 IST" duration-ms="3692" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.NinjaLogin_TC002@1b1473ab]" started-at="2026-08-28T13:05:34 IST" name="setup" finished-at="2026-08-28T13:05:36 IST" duration-ms="2181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_login()[pri:0, instance:testCase.NinjaLogin_TC002@1b1473ab]" started-at="2026-08-27T21:13:53 IST" name="verify_login" finished-at="2026-08-27T21:13:55 IST" duration-ms="1943" status="PASS">
+        <test-method signature="verify_login()[pri:0, instance:testCase.NinjaLogin_TC002@1b1473ab]" started-at="2026-08-28T13:05:36 IST" name="verify_login" finished-at="2026-08-28T13:05:39 IST" duration-ms="2562" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.NinjaLogin_TC002@1b1473ab]" started-at="2026-08-27T21:13:55 IST" name="tearDown" finished-at="2026-08-27T21:13:55 IST" duration-ms="417" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.NinjaLogin_TC002@1b1473ab]" started-at="2026-08-28T13:05:39 IST" name="tearDown" finished-at="2026-08-28T13:05:39 IST" duration-ms="339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
