@@ -12,7 +12,7 @@ public class NinjaLogin_TC002 extends BaseClass {
 	@Test(groups="regression")
 	public void verify_login() 
 	    {
-		logger.info("Starting TC002");
+			
 		try
 		{
 		NinjaHomePage nhhp =new NinjaHomePage(driver);
