@@ -39,12 +39,13 @@ public class BaseClass {
 		//		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		driver.manage().window().maximize();
 	}
-
+	
+	/*
 	@AfterClass(groups= {"sanity","Master","regression"})
 	public void tearDown() {
 		driver.quit();
 
-	}
+	}*/
 
 	
 	public String captureScreen(String tname) throws IOException {

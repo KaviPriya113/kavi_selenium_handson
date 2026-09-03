@@ -18,6 +18,9 @@ public class NinjaMonitordetails_TC007 extends BaseClass {
 		NinjaMonitorPage nmp = new NinjaMonitorPage(driver);
 		nmp.clickmonitorelement();
 		
+		nmp.selectcheck1();
+		nmp.selectcheck2();
+		
 		
 	}
 
