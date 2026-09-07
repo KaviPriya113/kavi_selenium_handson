@@ -21,6 +21,7 @@
 			<class name="testCase.NinjaShoppingCart_TC004"></class>
 			<class name="testCase.NinjaWishlist_TC005"></class>
 			<class name="testCase.NinjaReview_TC006"></class>
+			<class name="testCase.NinjaMonitordetails_TC007"></class>
 		</classes>
 	</test> <!--
 	Test -->

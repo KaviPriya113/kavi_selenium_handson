@@ -3,6 +3,7 @@ package pageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.Select;
 
 public class NinjaMonitorPage extends basePage
 {
@@ -37,6 +38,29 @@ public class NinjaMonitorPage extends basePage
 			checkbox2.click();
 		}
 	}
+	
+	@FindBy(xpath="//*[@id=\"input-option208\"]")
+	WebElement inputText;
+	
+	public void textInput(String input) {
+		inputText.clear();
+		inputText.sendKeys(input);	}
+	
+	@FindBy(xpath="//*[@id=\"input-option217\"]")
+	WebElement selectdrop;
+
+	public void SelectColour(String colour) {
+		Select select = new Select(selectdrop);
+		select.selectByVisibleText(colour);
+		
+	}
+	@FindBy(name="option[209]")
+	WebElement enterText;
+	
+	public void EnterContent(String content) {
+		enterText.sendKeys(content);
+	}
+	
 	
 
 }

@@ -40,12 +40,11 @@ public class BaseClass {
 		driver.manage().window().maximize();
 	}
 	
-	/*
 	@AfterClass(groups= {"sanity","Master","regression"})
 	public void tearDown() {
 		driver.quit();
 
-	}*/
+	}
 
 	
 	public String captureScreen(String tname) throws IOException {

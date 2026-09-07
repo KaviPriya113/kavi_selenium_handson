@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,6 +104,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCase.NinjaReview_TC006" class="method navigator-link" hash-for-method="Verify_Review">Verify_Review</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCase.NinjaMonitordetails_TC007" class="method navigator-link" hash-for-method="monitorclass">monitorclass</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -213,6 +218,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCase.NinjaMonitordetails_TC007</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="monitorclass">
+                  </a> <!-- monitorclass -->
+                  <span class="method-name">monitorclass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -245,6 +265,7 @@
       &lt;class name=&quot;testCase.NinjaShoppingCart_TC004&quot;/&gt;
       &lt;class name=&quot;testCase.NinjaWishlist_TC005&quot;/&gt;
       &lt;class name=&quot;testCase.NinjaReview_TC006&quot;/&gt;
+      &lt;class name=&quot;testCase.NinjaMonitordetails_TC007&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -258,7 +279,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (7 classes)</span>
+                <span class="test-name">Test (8 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -273,6 +294,10 @@
               <br/>
               <div class="method-in-group">
                 <span class="method-in-group-name">Verify_Review</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">monitorclass</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
@@ -308,32 +333,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'shoppingcart')
 data.setCell(0, 2, 'testCase.NinjaShoppingCart_TC004')
-data.setCell(0, 3, 13930);
+data.setCell(0, 3, 14341);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verify_Wishlist')
 data.setCell(1, 2, 'testCase.NinjaWishlist_TC005')
-data.setCell(1, 3, 13862);
+data.setCell(1, 3, 11266);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'registration')
 data.setCell(2, 2, 'testCase.NinjaRegistration_TC001')
-data.setCell(2, 3, 8632);
+data.setCell(2, 3, 8623);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'Verify_Review')
 data.setCell(3, 2, 'testCase.NinjaReview_TC006')
-data.setCell(3, 3, 7343);
+data.setCell(3, 3, 7887);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verify_login')
-data.setCell(4, 2, 'testCase.NinjaLogin_TC002')
-data.setCell(4, 3, 2562);
+data.setCell(4, 1, 'monitorclass')
+data.setCell(4, 2, 'testCase.NinjaMonitordetails_TC007')
+data.setCell(4, 3, 3369);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verify_login')
+data.setCell(5, 2, 'testCase.NinjaLogin_TC002')
+data.setCell(5, 3, 1844);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -380,71 +409,86 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">registration</span>
-                <span class="method-start">8314 ms</span>
+                <span class="method-start">4246 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17007 ms</span>
+                <span class="method-start">12915 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCase.NinjaLogin_TC002</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">17436 ms</span>
+                <span class="method-start">13319 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verify_login</span>
-                <span class="method-start">19622 ms</span>
+                <span class="method-start">15560 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">22200 ms</span>
+                <span class="method-start">17404 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCase.NinjaShoppingCart_TC004</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">22540 ms</span>
+                <span class="method-start">17754 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">shoppingcart</span>
-                <span class="method-start">24609 ms</span>
+                <span class="method-start">19987 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">38541 ms</span>
+                <span class="method-start">34333 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCase.NinjaWishlist_TC005</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">38924 ms</span>
+                <span class="method-start">34737 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verify_Wishlist</span>
-                <span class="method-start">40840 ms</span>
+                <span class="method-start">36994 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">54702 ms</span>
+                <span class="method-start">48262 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCase.NinjaReview_TC006</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">55089 ms</span>
+                <span class="method-start">48592 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">Verify_Review</span>
-                <span class="method-start">56911 ms</span>
+                <span class="method-start">50575 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">64259 ms</span>
+                <span class="method-start">58464 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCase.NinjaMonitordetails_TC007</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">59017 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">monitorclass</span>
+                <span class="method-start">62006 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">65379 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
